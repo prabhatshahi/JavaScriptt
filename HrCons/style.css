@@ -1,0 +1,262 @@
+figcaption,
+figure {
+  display: block;
+}
+
+html {
+  font-size: 100%;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+body {
+  font-family: "Noto Sans", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.02em;
+  color: #222;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-variant-ligatures: common-ligatures;
+}
+
+h1 {
+  font-size: 4.1875em;
+  line-height: 1.07462686567164em;
+  margin: 0;
+  margin-bottom: 0.71641791044776em;
+  font-weight: normal;
+  color: #00274a;
+  max-width: 800px;
+}
+
+@media only screen and (max-width: 501px) {
+  h1 {
+    font-size: 1.9375em;
+    line-height: 1.16129em;
+    margin-bottom: 1.16129em;
+  }
+}
+
+h1 small {
+  font-size: 0.5em;
+  font-family: "Noto Sans", "Arial", sans-serif;
+  line-height: 0.5em;
+}
+
+h2 {
+  font-size: 2.375em;
+  line-height: 1.26316em;
+  margin-bottom: 0.63158em;
+  font-weight: 300;
+  color: #00274a;
+  margin-top: 1.26316em;
+}
+
+@media only screen and (max-width: 501px) {
+  h2 {
+    font-size: 1.4375em;
+    line-height: 1.56522em;
+    margin-bottom: 0.52174em;
+  }
+}
+
+.article-big-text p {
+  font-size: 1.3125em;
+  line-height: 1.71429em;
+  margin-bottom: 1.71429em;
+  opacity: 0.92;
+}
+
+@media only screen and (max-width: 501px) {
+  .article-big-text p {
+    font-size: 1.0625em;
+    line-height: 1.41176em;
+    margin-bottom: 1.41176em;
+  }
+}
+
+.article-big-text p.perex {
+  font-size: 1.75em;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-width: 501px) {
+  .article-big-text p.perex {
+    font-size: 1.3125em;
+    line-height: 1.42857em;
+  }
+}
+
+.article-big-text p.perex:after {
+  content: "";
+  width: 50%;
+  height: 2px;
+  background: #e8e3db;
+  margin: 34px auto 36px;
+  display: block;
+}
+
+@media only screen and (max-width: 501px) {
+  .article-big-text p.perex:after {
+    margin: 23px auto 23px;
+  }
+}
+
+.article-big-text blockquote {
+  font-size: 1.3125em;
+  line-height: 1.71429em;
+  margin-bottom: 1.71429em;
+  font-style: italic;
+  border-left: 5px solid #ddd;
+  padding-left: 40px;
+  margin-left: 0;
+}
+
+@media only screen and (max-width: 501px) {
+  .article-big-text blockquote {
+    font-size: 1.0625em;
+    line-height: 1.41176em;
+    margin-bottom: 1.41176em;
+  }
+}
+
+@media only screen and (max-width: 501px) {
+  .article-big-text a {
+    background-position: 0 20px;
+  }
+}
+
+.article-big-text ol,
+.article-big-text ul {
+  font-size: 1.3125em;
+  line-height: 1.71429em;
+  margin: 1.14286em 0 1.71429em;
+  padding-left: 3em;
+}
+
+@media only screen and (max-width: 501px) {
+  .article-big-text ol,
+  .article-big-text ul {
+    font-size: 1.0625em;
+    line-height: 1.41176em;
+    margin-bottom: 1.41176em;
+    padding-left: 2em;
+  }
+}
+
+.article-big-text ol li,
+.article-big-text ul li {
+  font-size: inherit;
+}
+
+.article-big-text p + h2 {
+  margin: 1.26316em 0 0.63158em;
+}
+
+.article-big-text figcaption {
+  color: #727272;
+  font-size: 0.8125em;
+  line-height: 1.84615384615385;
+  margin: 0.92307692307692em auto 0;
+}
+
+.article-big-text span {
+  font-size: inherit !important;
+  line-height: inherit !important;
+}
+
+.medium-insert-images figure,
+.mediumInsert figure {
+  margin: 0 0 24px 0;
+  display: block;
+}
+
+.medium-insert-images figure img,
+.mediumInsert figure img {
+  max-width: 100%;
+  margin-top: 1em;
+  vertical-align: top;
+}
+
+.medium-insert-images figure:first-child img,
+.mediumInsert figure:first-child img {
+  margin-top: 0;
+}
+
+.medium-insert-images-left.mediumInsert,
+.medium-insert-images.medium-insert-images-left,
+.mediumInsert.small {
+  max-width: 40%;
+  float: left;
+  margin: 15px 30px 10px 0;
+}
+
+img {
+  max-width: 100% !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 980px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto 0;
+  margin-top: 79px;
+}
+
+@media only screen and (max-width: 320px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.about .container,
+.submenu-page .container {
+  margin-top: 128px;
+}
+
+@media only screen and (max-width: 770px) {
+  .about .container,
+  .submenu-page .container {
+    margin-top: 46px;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .container {
+    margin-top: 46px;
+  }
+}
+
+.container + .container {
+  margin-top: 0;
+}
+
+.onecol {
+  max-width: 750px;
+}
+
+.onecol-plus {
+  max-width: 850px;
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.05em;
+}
